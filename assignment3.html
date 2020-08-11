@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+
+<title> Assignment 2 Task 2 (Mohsin Ali Shah 16pwcse1492) </title>
+
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("form").remove();
+  });
+});
+</script>
+
+</head>
+
+
+
+<body>
+	<form onsubmit="return temp()">
+
+
+        <br><br>
+		Name: <input type="text" name="name" id="name1"> <br>
+		Email: <input type="text" name="Email" id="ele2" > <br><br> <br>
+
+		Answer: <br>
+		<input type="radio" name="colors" value="red" id="ele3">Red<br>
+		<input type="radio" name="colors" value="gray" id="ele4">Gray<br>
+		<input type="radio" name="colors" value="blue" id="ele5">Blue
+
+		
+		<br>
+
+		<input type='submit' value="Enter now">
+		<button>Remove Form</button>
+
+
+	</form>
+
+</html>
